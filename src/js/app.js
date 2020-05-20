@@ -131,6 +131,11 @@ let swamiKarpatriBooks = [
         img: "./src/img/Adhunik-Rajneeti-Aur-Ramrajya.jpg",
         title: "आधुनिक राजनीती और रामराज्य परिषद्",
         download: "https://archive.org/download/AdhunikRajneetiAurRamrajyaParishad/Adhunik%20Rajneeti%20Aur%20Ramrajya%20Parishad%20Karpatri%20Ji.pdf"
+    },
+    {
+        img: "./src/img/marxwad-ramrajya.jpeg",
+        title: "मार्क्सवाद और रामराज्य",
+        download: "https://archive.org/download/MarxvadAurRamarajyaKarpatriji/Marxvad%20Aur%20Ramarajya%20Karpatriji.pdf"
     }
 ]
 
