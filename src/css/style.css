@@ -203,6 +203,10 @@ footer > .centered{
     .title {
         text-align: center;
     }
+
+    .book {
+        margin-top: 8%;
+    }
 }
 
 @media(max-width: 400px) {
@@ -230,5 +234,9 @@ footer > .centered{
 
     nav ul {
         justify-content: center;
+    }
+
+    .book {
+        margin-top: 8%;
     }
 }
