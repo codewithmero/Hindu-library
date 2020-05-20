@@ -95,13 +95,58 @@ let HODharmashastraList = [
     }
 ]
 
+// Swami Karpatri Ji Book list
+let swamiKarpatriBooks = [
+    {
+        img: "./src/img/swami-karpatri-bio.jpeg",
+        title: "करपात्री स्वामी: एक जीवन दर्शन",
+        download: "https://archive.org/download/KarpatriSwamiEkJeevanDarshan/Karpatri%20Swami%20-%20Ek%20Jeevan%20Darshan.pdf"
+    },
+    {
+        img: "./src/img/ramayana-mimansa.webp",
+        title: "रामायण मीमांसा",
+        download: "https://archive.org/download/ramayanmimansa/Ramayan%20Mimansa%20KarpatriSwami.pdf"
+    },
+    {
+        img: "./src/img/kaal-mimansa.jpg",
+        title: "काल-मीमांसा",
+        download: "https://archive.org/download/KaalMimansa/Kaal%20Mimansa%20Karpatriji.pdf"
+    },
+    {
+        img: "./src/img/nastik-astik-vada.jpg",
+        title: "नास्तिक आस्तिक वाद",
+        download: "https://archive.org/download/nastikastikvaadkarpatriji/Nastik%20Astik%20Vaad%20Karpatriji.pdf"
+    },
+    {
+        img: "./src/img/shri-bhagavat-sudha.jpg",
+        title: "श्री भागवत-सुधा",
+        download: "https://archive.org/download/bhagavatasudha/Bhagavata%20Sudha%20Karpatriji%202012.pdf"
+    },
+    {
+        img: "./src/img/shri-radha-sudha.jpg",
+        title: "श्री राधा-सुधा",
+        download: "https://archive.org/download/radhasudha/Radha%20Sudha%20Karpatriji%202012.pdf"
+    },
+    {
+        img: "./src/img/shri-bhagavat-sudha.jpg",
+        title: "श्री भागवत-सुधा",
+        download: "https://archive.org/download/bhagavatasudha/Bhagavata%20Sudha%20Karpatriji%202012.pdf"
+    },
+    {
+        img: "./src/img/Adhunik-Rajneeti-Aur-Ramrajya.jpg",
+        title: "आधुनिक राजनीती और रामराज्य परिषद्",
+        download: "https://archive.org/download/AdhunikRajneetiAurRamrajyaParishad/Adhunik%20Rajneeti%20Aur%20Ramrajya%20Parishad%20Karpatri%20Ji.pdf"
+    }
+]
+
 // To count the number of books in this website;
-let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length;
+let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length + swamiKarpatriBooks.length;
 
 // To grab the UL's for populating them
 let mahabharataBookList = document.querySelector(".mahabharata");
 let ramayanaBookList = document.querySelector(".ramayana")
 let HODharmashastraBookList = document.querySelector(".history-of-dharmashastra");
+let karpatrijiBookList = document.querySelector(".karpatriji");
 
 let count = document.querySelector(".count");
 count.innerText = "There are " + booksCount + " books in this library";
@@ -179,4 +224,29 @@ HODharmashastraList.forEach(item => {
     div.appendChild(figure);
 
     HODharmashastraBookList.appendChild(div);
+});
+
+// Populating Karpatri Ji's works
+swamiKarpatriBooks.forEach(item => {
+    let div = document.createElement("div");
+    div.classList.add("book");
+
+    let figure = document.createElement("figure");
+
+    let img = document.createElement("img");
+    img.setAttribute("src", item.img);
+
+    let figcaption = document.createElement("figcaption");
+    figcaption.classList.add("book-title");
+
+    let a = document.createElement("a");
+    a.setAttribute("href", item.download);
+    a.innerText = item.title;
+
+    figcaption.appendChild(a);
+    figure.appendChild(img);
+    figure.appendChild(figcaption);
+    div.appendChild(figure);
+
+    karpatrijiBookList.appendChild(div);
 });
