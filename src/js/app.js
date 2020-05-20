@@ -139,6 +139,19 @@ let swamiKarpatriBooks = [
     }
 ]
 
+let learnSanskritBooks = [
+    {
+        img: "./src/img/sanskrit-shikshakI.jpg",
+        title: "संस्कृत स्वयं शिक्षक(भाग-1)",
+        download: "https://archive.org/download/SanskritSvayamShikshakISatvalekar/Sanskrit%20Svayam%20Shikshak%20I%20-%20Satvalekar%20.pdf"
+    },
+    {
+        img: "./src/img/sanskrit-shikshakII.jpg",
+        title: "संस्कृत स्वयं शिक्षक(भाग-2 & 3)",
+        download: "https://archive.org/download/SanskritSwayamShikshakPartIIAndIIIS.D.Satvalekar/Sanskrit%20%20Swayam%20Shikshak%20Part%20II%20and%20III%20-%20S.D.%20Satvalekar.pdf"
+    }
+]
+
 // To count the number of books in this website;
 let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length + swamiKarpatriBooks.length;
 
@@ -147,6 +160,7 @@ let mahabharataBookList = document.querySelector(".mahabharata");
 let ramayanaBookList = document.querySelector(".ramayana")
 let HODharmashastraBookList = document.querySelector(".history-of-dharmashastra");
 let karpatrijiBookList = document.querySelector(".karpatriji");
+let learnSanskritBookList = document.querySelector(".learn-sanskrit");
 
 let count = document.querySelector(".count");
 count.innerText = "There are " + booksCount + " books in this library";
@@ -249,4 +263,29 @@ swamiKarpatriBooks.forEach(item => {
     div.appendChild(figure);
 
     karpatrijiBookList.appendChild(div);
+});
+
+// Populating Karpatri Ji's works
+learnSanskritBooks.forEach(item => {
+    let div = document.createElement("div");
+    div.classList.add("book");
+
+    let figure = document.createElement("figure");
+
+    let img = document.createElement("img");
+    img.setAttribute("src", item.img);
+
+    let figcaption = document.createElement("figcaption");
+    figcaption.classList.add("book-title");
+
+    let a = document.createElement("a");
+    a.setAttribute("href", item.download);
+    a.innerText = item.title;
+
+    figcaption.appendChild(a);
+    figure.appendChild(img);
+    figure.appendChild(figcaption);
+    div.appendChild(figure);
+
+    learnSanskritBookList.appendChild(div);
 });
