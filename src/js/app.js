@@ -152,15 +152,30 @@ let learnSanskritBooks = [
     }
 ]
 
+let bhagavadgitaBooks = [
+    {
+        img: "./src/img/bhagavad-gita(main).jpeg",
+        title: "गीता प्रेस: श्रीमद्भगवद्गीता",
+        download: "https://archive.org/download/BhagavataGitaGitaPressGorakhpur/Bhagavata%20Gita%20-%20Gita%20Press%20Gorakhpur.pdf"
+    },
+    {
+        img: "./src/img/sadhaka-sanjeevani.jpg",
+        title: "श्रीमद्भगवद्गीता: साधक संजीवनी(हिंदी टीका)",
+        download: "https://archive.org/download/SadhakSanjivaniStartPage/Sadhak%20Sanjeevani-%20Ramsukh%20dasji%20Maharaj.pdf"
+    }
+]
+
 // To count the number of books in this website;
 let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length + swamiKarpatriBooks.length + learnSanskritBooks.length;
 
 // To grab the UL's for populating them
 let mahabharataBookList = document.querySelector(".mahabharata");
-let ramayanaBookList = document.querySelector(".ramayana")
+let ramayanaBookList = document.querySelector(".ramayana");
 let HODharmashastraBookList = document.querySelector(".history-of-dharmashastra");
 let karpatrijiBookList = document.querySelector(".karpatriji");
 let learnSanskritBookList = document.querySelector(".learn-sanskrit");
+let bhagavadgitaBookList = document.querySelector(".bhagavadgita");
+
 
 let count = document.querySelector(".count");
 count.innerText = "There are " + booksCount + " books in this library";
@@ -288,4 +303,29 @@ learnSanskritBooks.forEach(item => {
     div.appendChild(figure);
 
     learnSanskritBookList.appendChild(div);
+});
+
+// Populating Bhagavadgita book list
+bhagavadgitaBooks.forEach(item => {
+    let div = document.createElement("div");
+    div.classList.add("book");
+
+    let figure = document.createElement("figure");
+
+    let img = document.createElement("img");
+    img.setAttribute("src", item.img);
+
+    let figcaption = document.createElement("figcaption");
+    figcaption.classList.add("book-title");
+
+    let a = document.createElement("a");
+    a.setAttribute("href", item.download);
+    a.innerText = item.title;
+
+    figcaption.appendChild(a);
+    figure.appendChild(img);
+    figure.appendChild(figcaption);
+    div.appendChild(figure);
+
+    bhagavadgitaBookList.appendChild(div);
 });
