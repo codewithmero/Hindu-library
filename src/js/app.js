@@ -128,11 +128,6 @@ let swamiKarpatriBooks = [
         download: "https://archive.org/download/radhasudha/Radha%20Sudha%20Karpatriji%202012.pdf"
     },
     {
-        img: "./src/img/shri-bhagavat-sudha.jpg",
-        title: "श्री भागवत-सुधा",
-        download: "https://archive.org/download/bhagavatasudha/Bhagavata%20Sudha%20Karpatriji%202012.pdf"
-    },
-    {
         img: "./src/img/Adhunik-Rajneeti-Aur-Ramrajya.jpg",
         title: "आधुनिक राजनीती और रामराज्य परिषद्",
         download: "https://archive.org/download/AdhunikRajneetiAurRamrajyaParishad/Adhunik%20Rajneeti%20Aur%20Ramrajya%20Parishad%20Karpatri%20Ji.pdf"
