@@ -32,3 +32,15 @@
                             <figcaption class="book-title"><a href="#">गीता प्रेस: महाभारत(भाग-5)</a></figcaption>
                         </figure>
                     </div> -->
+
+
+                    <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">About</a></li>
+                    <!-- <li><a href="#">Authors</a></li> -->
+                    <li><a href="#">Forum</a></li>
+                    <li><input type="search" name="search" id="search-books" placeholder="Search"></li>
+                </ul>
+            </nav>
