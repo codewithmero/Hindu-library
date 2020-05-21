@@ -333,6 +333,16 @@ let sanskritNatyaBooks = [
         img: "./src/img/sanskrit_natya/mudrarakshasEng.jpg",
         title: "The English translation of Mudrarakshas",
         download: "https://archive.org/download/Mudrarakshasa-Vishakhadatta-SanskritTextTranslation/MudraRakshasa-SanskritPlayOnChanakyaWithEnglishTranslation.pdf"
+    },
+    {
+        img: "./src/img/sanskrit_natya/abhijnana-shakuntalamHindi.jpg",
+        title: "अभिज्ञान-शाकुंतलम्: महाकवि कालिदास द्वारा रचित",
+        download: "https://archive.org/download/in.ernet.dli.2015.485570/2015.485570.Abhigyan-Shakuntalam.pdf"
+    },
+    {
+        img: "./src/img/sanskrit_natya/abhijnana-shakuntalam.jpg",
+        title: "अभिज्ञान-शाकुंतलम्: a sanskrit-english translation",
+        download: "https://archive.org/download/AbhijnanaShakuntalamOfKalidasaMRKale/Abhijnana%20Shakuntalam%20of%20Kalidasa%20-%20M%20R%20Kale.pdf"
     }
 ]
 
