@@ -318,6 +318,21 @@ let sanskritNatyaBooks = [
         img: "./src/img/sanskrit_natya/ratnavali.jpg",
         title: "रत्नावली: श्री हर्षदेव द्वारा रचित(Sanskrit-English)",
         download: "https://archive.org/download/in.ernet.dli.2015.510493/2015.510493.Ratnavali-Of.pdf"
+    },
+    {
+        img: "./src/img/sanskrit_natya/meghadoot.jpg",
+        title: "मेघदूत: महाकवि कालिदास द्वारा रचित",
+        download: "https://archive.org/download/in.ernet.dli.2015.367343/2015.367343.The-Meghaduta.pdf"
+    },
+    {
+        img: "./src/img/sanskrit_natya/mudrarakshas.jpg",
+        title: "मुद्राराक्षस: भारतेन्दु हरिश्चंद्र द्वारा अनुवादित",
+        download: "https://archive.org/download/Mudrarakshas_Hindi_Bharatendu_Harischandra/Mudrarakshas%20%20Hindi%20-%20Bharatendu%20Harischandra%201925.pdf"
+    },
+    {
+        img: "./src/img/sanskrit_natya/mudrarakshasEng.jpg",
+        title: "The English translation of Mudrarakshas",
+        download: "https://archive.org/download/Mudrarakshasa-Vishakhadatta-SanskritTextTranslation/MudraRakshasa-SanskritPlayOnChanakyaWithEnglishTranslation.pdf"
     }
 ]
 
