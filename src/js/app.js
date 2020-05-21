@@ -9,6 +9,9 @@ let karpatrijiBookList = document.querySelector(".karpatriji");
 let learnSanskritBookList = document.querySelector(".learn-sanskrit");
 let bhagavadgitaBookList = document.querySelector(".bhagavadgita");
 let puranaBookList = document.querySelector(".puranas");
+let dharmasutraBookList = document.querySelector(".dharmasutras");
+let smritiBookList = document.querySelector(".smritis");
+
 
 let count = document.querySelector(".count");
 count.innerText = "There are " + booksCount + " books in this library";
@@ -186,4 +189,54 @@ puranaBooks.forEach(item => {
     div.appendChild(figure);
 
     puranaBookList.appendChild(div);
+});
+
+// Populating dharmasutra list
+dharmasutraBooks.forEach(item => {
+    let div = document.createElement("div");
+    div.classList.add("book");
+
+    let figure = document.createElement("figure");
+
+    let img = document.createElement("img");
+    img.setAttribute("src", item.img);
+
+    let figcaption = document.createElement("figcaption");
+    figcaption.classList.add("book-title");
+
+    let a = document.createElement("a");
+    a.setAttribute("href", item.download);
+    a.innerText = item.title;
+
+    figcaption.appendChild(a);
+    figure.appendChild(img);
+    figure.appendChild(figcaption);
+    div.appendChild(figure);
+
+    dharmasutraBookList.appendChild(div);
+});
+
+// Populating smriti books
+smritiBooks.forEach(item => {
+    let div = document.createElement("div");
+    div.classList.add("book");
+
+    let figure = document.createElement("figure");
+
+    let img = document.createElement("img");
+    img.setAttribute("src", item.img);
+
+    let figcaption = document.createElement("figcaption");
+    figcaption.classList.add("book-title");
+
+    let a = document.createElement("a");
+    a.setAttribute("href", item.download);
+    a.innerText = item.title;
+
+    figcaption.appendChild(a);
+    figure.appendChild(img);
+    figure.appendChild(figcaption);
+    div.appendChild(figure);
+
+    smritiBookList.appendChild(div);
 });

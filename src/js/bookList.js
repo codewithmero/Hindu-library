@@ -229,3 +229,24 @@ let puranaBooks = [
         download: "https://archive.org/download/puran_ling/Ling.pdf"
     }
 ]
+
+let dharmasutraBooks = [
+    {
+        img: "./src/img/dharmasutras/apastamba-sutra.jpg",
+        title: "आपस्तम्ब धर्मसूत्र",
+        download: "https://archive.org/download/in.ernet.dli.2015.408137/2015.408137.The-Apastamba.pdf"
+    },
+    {
+        img: "./src/img/dharmasutras/gautam-sutra.jpg",
+        title: "गौतम धर्मसूत्र",
+        download: "https://archive.org/download/in.ernet.dli.2015.429882/2015.429882.gautama-dharma.pdf"
+    }
+]
+
+let smritiBooks = [
+    {
+        img: "./src/img/smritis/ashtadash-smriti.jpg",
+        title: "अष्टादश स्मृति: खेमराज कृष्ण दस(हिंदी टीका)",
+        download: "https://archive.org/download/18SmritisWithHindiTikaKhemrajKrishnaDasPublishers/18%20Smritis%20with%20Hindi%20Tika%20-%20Khemraj%20Krishna%20Das%20Publishers.pdf"
+    }
+]
