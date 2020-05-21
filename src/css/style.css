@@ -141,6 +141,10 @@ footer > .centered{
     color: #555;
 }
 
+.special-mention {
+    margin-bottom: 20px;
+}
+
 .special-mention > p {
     margin-bottom: 10px;
 }
