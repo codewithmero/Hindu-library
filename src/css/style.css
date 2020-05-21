@@ -214,6 +214,10 @@ footer > .centered{
         height: 3px;
         margin-top: 5px;
     }
+
+    .special-mention p, .note p {
+        font-size: 0.9rem;
+    }
 }
 
 @media(max-width: 400px) {
@@ -250,6 +254,10 @@ footer > .centered{
 
     footer {
         margin-top: 5%;
+    }
+
+    .special-mention p, .note p {
+        font-size: 0.7rem;
     }
 
     /* .burger {
