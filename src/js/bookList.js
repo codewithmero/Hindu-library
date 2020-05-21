@@ -250,3 +250,16 @@ let smritiBooks = [
         download: "https://archive.org/download/18SmritisWithHindiTikaKhemrajKrishnaDasPublishers/18%20Smritis%20with%20Hindi%20Tika%20-%20Khemraj%20Krishna%20Das%20Publishers.pdf"
     }
 ]
+
+let sanskritNatyaBooks = [
+    {
+        img: "./src/img/sanskrit_natya/mricchakatikam.jpg",
+        title: "मृच्छकटिकम्: महाकवि शूद्रक द्वारा रचित",
+        download: "https://archive.org/download/MrcchakatikaofSudraka/MrcchakatikaofSudraka.pdf"
+    },
+    {
+        img: "./src/img/sanskrit_natya/raghuvamsa.jpg",
+        title: "रघुवंश महाकाव्य: महाकवि कालिदास द्वारा रचित",
+        download: "https://archive.org/download/Raghuvamsa_with_Hindi_Tika_-_Jwalaprasad_Mishra/RaghuvamsaWithHindiTika-JwalaprasadMishra1907.pdf"
+    }
+]
