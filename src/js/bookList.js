@@ -388,7 +388,7 @@ const granthaBooks = [
     {
         img: "./src/img/Grantha/chanakya-niti.jpg",
         title: "चाणक्य नीति",
-        download: "https://archive.org/download/chanakya-Neeti/selection.pdf"
+        download: "https://archive.org/download/HindiBook-chanakya-neeti-darpan/HindiBook-chanakya-neeti-darpan.pdf"
     },
     {
         img: "./src/img/Grantha/panchatantra.jpeg",
