@@ -207,5 +207,25 @@ let puranaBooks = [
         img: "./src/img/puranas/matsya-purana.jpg",
         title: "गीता प्रेस: मत्स्य पुराण",
         download: "https://archive.org/download/HindiBookMatsyaPuranByGitaPress/Hindi%20Book-Matsya-Puran%20by%20Gita%20Press.pdf"
+    },
+    {
+        img: "./src/img/puranas/brahmanda-purana.jpg",
+        title: "ब्रह्मांड पुराण: भाग-1",
+        download: "https://archive.org/download/puran_brahamand/Brahamand-I.pdf"
+    },
+    {
+        img: "./src/img/puranas/brahmanda-purana.jpg",
+        title: "ब्रह्मांड पुराण: भाग-2",
+        download: "https://archive.org/download/puran_brahamand/Brahamand-II.pdf"
+    },
+    {
+        img: "./src/img/puranas/kurma-purana.jpg",
+        title: "गीता प्रेस: कुर्मा पुराण",
+        download: "https://archive.org/download/HindiBookKurmaPuranByGitaPress/Hindi%20Book-Kurma-Puran%20by%20Gita%20Press.pdf"
+    },
+    {
+        img: "./src/img/puranas/linga-purana.jpg",
+        title: "लिंग पुराण(Non Gita Press)",
+        download: "https://archive.org/download/puran_ling/Ling.pdf"
     }
 ]
