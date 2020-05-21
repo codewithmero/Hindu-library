@@ -186,6 +186,11 @@ let gitaBooks = [
         download: "https://archive.org/download/SadhakSanjivaniStartPage/Sadhak%20Sanjeevani-%20Ramsukh%20dasji%20Maharaj.pdf"
     },
     {
+        img: "./src/img/Gita/jnaneshwari.jpg",
+        title: "ज्ञानेश्वरी(भगवद्गीता टीका): संत ज्ञानेश्वर द्वारा रचित",
+        download: "https://archive.org/download/HindiBookGyaneshwariJnaneshwariGeeta/Hindi%20Book-Gyaneshwari%20%28Jnaneshwari%29%20Geeta.pdf"
+    },
+    {
         img: "./src/img/Gita/ashtavakraGita.jpg",
         title: "अष्टावक्र गीता: राजा जनक और महर्षि अष्टावक्र के बीच एक संवाद(संक्षिप्त)",
         download: "https://archive.org/download/AshtavakraGitaWithHindiTranslation1911KhemrajPublishers/Ashtavakra%20Gita%20with%20Hindi%20Translation%201911%20-%20Khemraj%20Publishers.pdf"
@@ -359,5 +364,10 @@ const granthaBooks = [
         img: "./src/img/Grantha/chanakya-niti.jpg",
         title: "चाणक्य नीति",
         download: "https://archive.org/download/chanakya-Neeti/selection.pdf"
+    },
+    {
+        img: "./src/img/Grantha/panchatantra.jpeg",
+        title: "पंचतंत्रम्(संस्कृत-हिंदी अनुवाद)",
+        download: "https://archive.org/download/PanchatantraSanskritHindi-JpMishra1910/PanchatantraSanskritHindi-JpMishra1910.pdf"
     }
 ]
