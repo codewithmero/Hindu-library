@@ -203,6 +203,7 @@ footer > .centered{
 
     .burger {
         width: 27px;
+        right: 4%;
     }
 
     .burger > .stick {
