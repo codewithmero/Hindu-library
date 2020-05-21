@@ -29,6 +29,12 @@ let MahabharataList = [
         img: "./src/img/mahabharat.jpg",
         title: "गीता प्रेस: महाभारत(भाग-6)",
         download: "https://archive.org/download/Mahabharata_201712/6_Mahabharata.pdf"
+    },
+    {
+        img: "./src/img/Mahabharata/gangulyMB.jpg",
+        title: "The Mahabharata: Translated by Kisari Mohan Ganguli",
+        // download: "https://archive.org/download/MahabharataEnglishTranslationKMGanguli/Mahabharata%20English%20Translation%20-%20KM%20Ganguli.pdf"
+        download: "https://archive.org/download/TheMahabharataOfKrishna-dwaipayanaVyasa/MahabharataOfVyasa-EnglishTranslationByKMGanguli.pdf"
     }
 ]
 
@@ -53,6 +59,22 @@ let RamayanaList = [
         img: "./src/img/ramcharitmanas.jpg",
         title: "गीता प्रेस: श्री रामचरितमानस",
         download: "https://archive.org/download/RamcharitmanasGitapress/Ramcharitmanas%20Gitapress.pdf"
+    },
+    ,
+    {
+        img: "./src/img/Ramayana/RamayanaHP.jpg",
+        title: "The Ramayana of Valmiki: Translated by Hari Prasad Shastri",
+        download: "https://archive.org/download/The.Ramayana.of.Valmiki.by.Hari.Prasad.Shastri/The.Ramayana.of.Valmiki.by.Hari.Prasad.Shastri.pdf"
+    },
+    {
+        img: "./src/img/Ramayana/RamayanaKamba.jpg",
+        title: "कम्ब रामायण: भाग-१(कवि चंद्रशेखर कम्बार द्वारा रचित)",
+        download: "https://archive.org/download/Kamba.Ramayana.in.Hindi/Kamba.Ramayana.in.Hindi.Vol.1.pdf"
+    },
+    {
+        img: "./src/img/Ramayana/RamayanaKamba.jpg",
+        title: "कम्ब रामायण: भाग-२(कवि चंद्रशेखर कम्बार द्वारा रचित)",
+        download: "https://archive.org/download/Kamba.Ramayana.in.Hindi/Kamba.Ramayana.in.Hindi.Vol.2.pdf"
     }
 ]
 
