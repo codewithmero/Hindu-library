@@ -261,5 +261,25 @@ let sanskritNatyaBooks = [
         img: "./src/img/sanskrit_natya/raghuvamsa.jpg",
         title: "रघुवंश महाकाव्य: महाकवि कालिदास द्वारा रचित",
         download: "https://archive.org/download/Raghuvamsa_with_Hindi_Tika_-_Jwalaprasad_Mishra/RaghuvamsaWithHindiTika-JwalaprasadMishra1907.pdf"
+    },
+    {
+        img: "./src/img/sanskrit_natya/priyadarshika.jpg",
+        title: "प्रियदर्शिका: श्री हर्षदेव द्वारा रचित(English Translation)",
+        download: "https://archive.org/download/priyadarsikasans00hars/priyadarsikasans00hars.pdf"
+    },
+    {
+        img: "./src/img/sanskrit_natya/ratnavali.jpg",
+        title: "रत्नावली: श्री हर्षदेव द्वारा रचित(Sanskrit-English)",
+        download: "https://archive.org/download/in.ernet.dli.2015.510493/2015.510493.Ratnavali-Of.pdf"
+    },
+    {
+        img: "",
+        title: "",
+        download: ""
+    },
+    {
+        img: "",
+        title: "",
+        download: ""
     }
 ]
