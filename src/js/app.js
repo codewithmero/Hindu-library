@@ -1,5 +1,5 @@
 // To count the number of books in this website;
-let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length + swamiKarpatriBooks.length + learnSanskritBooks.length + puranaBooks.length;
+let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length + swamiKarpatriBooks.length + learnSanskritBooks.length + puranaBooks.length + dharmasutraBooks.length + smritiBooks.length;
 
 // To grab the UL's for populating them
 let mahabharataBookList = document.querySelector(".mahabharata");
