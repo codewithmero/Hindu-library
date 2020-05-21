@@ -175,6 +175,16 @@ let puranaBooks = [
         img: "./src/img/puranas/devi-bhagavatamII.jpg",
         title: "गीता प्रेस: श्रीमद्देवीभागवत महापुराण(भाग-2)",
         download: "https://archive.org/download/DeviBhagavataWithHindiTranslationVolume2GitaPress/Devi%20Bhagavata%20with%20Hindi%20Translation%20Volume%202%20Gita%20Press.pdf"
+    },
+    {
+        img: "./src/img/puranas/garuda-purana.jpg",
+        title: "गीता प्रेस: गरुड़ पुराण",
+        download: "https://archive.org/download/GarudaPuranaGitaPressGorakhpur/Garuda%20Purana%20-%20Gita%20Press%20Gorakhpur.pdf"
+    },
+    {
+        img: "./src/img/puranas/vishnu-purana.jpg",
+        title: "गीता प्रेस: विष्णु पुराण",
+        download: "https://archive.org/download/HindiBookVishnuPuran_201506/Hindi%20Book%20Vishnu%20Puran.pdf"
     }
 ]
 
