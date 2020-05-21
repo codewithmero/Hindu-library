@@ -196,5 +196,16 @@ let puranaBooks = [
         img: "./src/img/puranas/skandha-purana.jpg",
         title: "गीता प्रेस: स्कन्द पुराण",
         download: "https://archive.org/download/puran_skand/Skand.pdf"
+    },
+    {
+        img: "./src/img/puranas/shiva-purana.jpg",
+        title: "गीता प्रेस: शिव पुराण",
+        // download: "https://archive.org/download/SHIVPURANHINDI/SHIV%20PURAN%20HINDI.pdf"
+        download: "https://archive.org/download/puran_shiv/Shiv.pdf"
+    },
+    {
+        img: "./src/img/puranas/matsya-purana.jpg",
+        title: "गीता प्रेस: मत्स्य पुराण",
+        download: "https://archive.org/download/HindiBookMatsyaPuranByGitaPress/Hindi%20Book-Matsya-Puran%20by%20Gita%20Press.pdf"
     }
 ]
