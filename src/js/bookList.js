@@ -220,7 +220,7 @@ let puranaBooks = [
     },
     {
         img: "./src/img/puranas/kurma-purana.jpg",
-        title: "गीता प्रेस: कुर्मा पुराण",
+        title: "गीता प्रेस: कूर्म पुराण",
         download: "https://archive.org/download/HindiBookKurmaPuranByGitaPress/Hindi%20Book-Kurma-Puran%20by%20Gita%20Press.pdf"
     },
     {
@@ -246,7 +246,7 @@ let dharmasutraBooks = [
 let smritiBooks = [
     {
         img: "./src/img/smritis/ashtadash-smriti.jpg",
-        title: "अष्टादश स्मृति: खेमराज कृष्ण दस(हिंदी टीका)",
+        title: "अष्टादश स्मृति: खेमराज कृष्ण दास(हिंदी टीका)",
         download: "https://archive.org/download/18SmritisWithHindiTikaKhemrajKrishnaDasPublishers/18%20Smritis%20with%20Hindi%20Tika%20-%20Khemraj%20Krishna%20Das%20Publishers.pdf"
     }
 ]
