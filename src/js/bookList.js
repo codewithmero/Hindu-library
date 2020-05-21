@@ -174,7 +174,7 @@ let learnSanskritBooks = [
     }
 ]
 
-let bhagavadgitaBooks = [
+let gitaBooks = [
     {
         img: "./src/img/bhagavad-gita(main).jpeg",
         title: "गीता प्रेस: श्रीमद्भगवद्गीता",
@@ -184,6 +184,21 @@ let bhagavadgitaBooks = [
         img: "./src/img/sadhaka-sanjeevani.jpg",
         title: "श्रीमद्भगवद्गीता: साधक संजीवनी(हिंदी टीका)",
         download: "https://archive.org/download/SadhakSanjivaniStartPage/Sadhak%20Sanjeevani-%20Ramsukh%20dasji%20Maharaj.pdf"
+    },
+    {
+        img: "./src/img/Gita/ashtavakraGita.jpg",
+        title: "अष्टावक्र गीता: राजा जनक और महर्षि अष्टावक्र के बीच एक संवाद(संक्षिप्त)",
+        download: "https://archive.org/download/AshtavakraGitaWithHindiTranslation1911KhemrajPublishers/Ashtavakra%20Gita%20with%20Hindi%20Translation%201911%20-%20Khemraj%20Publishers.pdf"
+    },
+    {
+        img: "./src/img/Gita/AshtavakraGitaEng.jpg",
+        title: "The English translation of Ashravakra Gita(by John Richards)",
+        download: "https://archive.org/download/AshtavakraGitaSanskritTextWithEnglishTransliterationTranslation_201506/Ashtavakra%20Gita%20%20Sanskrit%20text%20with%20English%20transliteration%20%26%20Translation.pdf"
+    },
+    {
+        img: "./src/img/Gita/AshtavakraGitaRamanandaSaraswati.jpg",
+        title: "अष्टावक्र गीता: रामानन्द सरस्वती द्वारा अनुवादित",
+        download: "https://archive.org/download/HindiBookAshtavakraGitaRamanandaSaraswati/Hindi%20Book-Ashtavakra-Gita-Ramananda-Saraswati.pdf"
     }
 ]
 
@@ -326,5 +341,23 @@ let robertSvabodaBooks = [
         img: "./src/img/Robert_Svaboda/light-on-life.jpg",
         title: "Light On Life: An Introduction To The Astrology Of India",
         download: "https://archive.org/download/LightOnLifeAnIntroductionToTheAstrologyOfIndiaHardDeFouwAndRobertSvoboda/Light%20on%20life%20An%20Introduction%20to%20the%20Astrology%20of%20India%20-%20Hard%20de%20Fouw%20and%20Robert%20Svoboda.pdf"
+    }
+]
+
+const famousGranthaBooks = [
+    {
+        img: "./src/img/Grantha/ArthashastraHindi.jpg",
+        title: "कौटिल्य अर्थशास्त्र",
+        download: "https://archive.org/download/KautilyaKaArthshastra-Hindi-Kautilya/10.Kauitilya-arthshastra.pdf"
+    },
+    {
+        img: "./src/img/Grantha/ArthashastraEng.jpg",
+        title: "The English Translation of Kautilya's Arthashastra",
+        download: "https://archive.org/download/Arthasastra_English_Translation/Arthashastra_of_Chanakya_-_English.pdf"
+    },
+    {
+        img: "./src/img/Grantha/chanakya-niti.jpg",
+        title: "चाणक्य नीति",
+        download: "https://archive.org/download/chanakya-Neeti/selection.pdf"
     }
 ]

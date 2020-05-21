@@ -1,5 +1,5 @@
 // To count the number of books in this website;
-let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length + swamiKarpatriBooks.length + learnSanskritBooks.length + puranaBooks.length + dharmasutraBooks.length + smritiBooks.length + sanskritNatyaBooks.length + robertSvabodaBooks.length;
+let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length + swamiKarpatriBooks.length + gitaBooks.length + learnSanskritBooks.length + puranaBooks.length + dharmasutraBooks.length + smritiBooks.length + sanskritNatyaBooks.length + robertSvabodaBooks.length + famousGranthaBooks.length;
 
 // To grab the UL's for populating them
 let mahabharataBookList = document.querySelector(".mahabharata");
@@ -7,12 +7,13 @@ let ramayanaBookList = document.querySelector(".ramayana");
 let HODharmashastraBookList = document.querySelector(".history-of-dharmashastra");
 let karpatrijiBookList = document.querySelector(".karpatriji");
 let learnSanskritBookList = document.querySelector(".learn-sanskrit");
-let bhagavadgitaBookList = document.querySelector(".bhagavadgita");
+let gitaBookList = document.querySelector(".bhagavadgita");
 let puranaBookList = document.querySelector(".puranas");
 let dharmasutraBookList = document.querySelector(".dharmasutras");
 let smritiBookList = document.querySelector(".smritis");
 let sanskritNatyaList = document.querySelector(".sanskrit-natya");
 let robertSvabodaList = document.querySelector(".robert-svaboda");
+let famousGranthaList = document.querySelector(".granthas")
 
 
 let count = document.querySelector(".count");
@@ -143,8 +144,8 @@ learnSanskritBooks.forEach(item => {
     learnSanskritBookList.appendChild(div);
 });
 
-// Populating Bhagavadgita book list
-bhagavadgitaBooks.forEach(item => {
+// Populating gita book list
+gitaBooks.forEach(item => {
     let div = document.createElement("div");
     div.classList.add("book");
 
@@ -165,7 +166,7 @@ bhagavadgitaBooks.forEach(item => {
     figure.appendChild(figcaption);
     div.appendChild(figure);
 
-    bhagavadgitaBookList.appendChild(div);
+    gitaBookList.appendChild(div);
 });
 
 // Populating puranas list
@@ -291,4 +292,30 @@ robertSvabodaBooks.forEach(item => {
     div.appendChild(figure);
 
     robertSvabodaList.appendChild(div);
+});
+
+
+// Populating grantha books
+famousGranthaBooks.forEach(item => {
+    let div = document.createElement("div");
+    div.classList.add("book");
+
+    let figure = document.createElement("figure");
+
+    let img = document.createElement("img");
+    img.setAttribute("src", item.img);
+
+    let figcaption = document.createElement("figcaption");
+    figcaption.classList.add("book-title");
+
+    let a = document.createElement("a");
+    a.setAttribute("href", item.download);
+    a.innerText = item.title;
+
+    figcaption.appendChild(a);
+    figure.appendChild(img);
+    figure.appendChild(figcaption);
+    div.appendChild(figure);
+
+    famousGranthaList.appendChild(div);
 });
