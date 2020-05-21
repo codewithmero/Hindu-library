@@ -165,8 +165,21 @@ let bhagavadgitaBooks = [
     }
 ]
 
+let puranaBooks = [
+    {
+        img: "./src/img/puranas/devi-bhagavatamI.jpg",
+        title: "गीता प्रेस: श्रीमद्देवीभागवत महापुराण(भाग-1)",
+        download: "https://archive.org/download/DeviBhagavataWithHindiTranslationVolume1GitaPress/Devi%20Bhagavata%20with%20Hindi%20Translation%20Volume%201%20Gita%20Press.pdf"
+    },
+    {
+        img: "./src/img/puranas/devi-bhagavatamII.jpg",
+        title: "गीता प्रेस: श्रीमद्देवीभागवत महापुराण(भाग-2)",
+        download: "https://archive.org/download/DeviBhagavataWithHindiTranslationVolume2GitaPress/Devi%20Bhagavata%20with%20Hindi%20Translation%20Volume%202%20Gita%20Press.pdf"
+    }
+]
+
 // To count the number of books in this website;
-let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length + swamiKarpatriBooks.length + learnSanskritBooks.length;
+let booksCount = MahabharataList.length + RamayanaList.length + HODharmashastraList.length + swamiKarpatriBooks.length + learnSanskritBooks.length + puranaBooks.length;
 
 // To grab the UL's for populating them
 let mahabharataBookList = document.querySelector(".mahabharata");
@@ -175,7 +188,7 @@ let HODharmashastraBookList = document.querySelector(".history-of-dharmashastra"
 let karpatrijiBookList = document.querySelector(".karpatriji");
 let learnSanskritBookList = document.querySelector(".learn-sanskrit");
 let bhagavadgitaBookList = document.querySelector(".bhagavadgita");
-
+let puranaBookList = document.querySelector(".puranas");
 
 let count = document.querySelector(".count");
 count.innerText = "There are " + booksCount + " books in this library";
@@ -328,4 +341,29 @@ bhagavadgitaBooks.forEach(item => {
     div.appendChild(figure);
 
     bhagavadgitaBookList.appendChild(div);
+});
+
+// Populating puranas list
+puranaBooks.forEach(item => {
+    let div = document.createElement("div");
+    div.classList.add("book");
+
+    let figure = document.createElement("figure");
+
+    let img = document.createElement("img");
+    img.setAttribute("src", item.img);
+
+    let figcaption = document.createElement("figcaption");
+    figcaption.classList.add("book-title");
+
+    let a = document.createElement("a");
+    a.setAttribute("href", item.download);
+    a.innerText = item.title;
+
+    figcaption.appendChild(a);
+    figure.appendChild(img);
+    figure.appendChild(figcaption);
+    div.appendChild(figure);
+
+    puranaBookList.appendChild(div);
 });
