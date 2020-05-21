@@ -271,15 +271,33 @@ let sanskritNatyaBooks = [
         img: "./src/img/sanskrit_natya/ratnavali.jpg",
         title: "रत्नावली: श्री हर्षदेव द्वारा रचित(Sanskrit-English)",
         download: "https://archive.org/download/in.ernet.dli.2015.510493/2015.510493.Ratnavali-Of.pdf"
+    }
+]
+
+let robertSvabodaBooks = [
+    {
+        img: "./src/img/Robert_Svaboda/AghoraI.jpg",
+        title: "Aghora: At the Left Hand of God",
+        download: "https://archive.org/download/aghorapart1robersvobadae._202003_559_s/Aghora%20Part%201%20%20Rober%20Svobada%20E.%20.pdf"
     },
     {
-        img: "",
-        title: "",
-        download: ""
+        img: "./src/img/Robert_Svaboda/AghoraII.jpg",
+        title: "Aghora II: Kundalini",
+        download: "https://archive.org/download/aghorapart2robersvobadae._202003_199_V/Aghora%20Part%202%20%20Rober%20Svobada%20E.%20.pdf"
     },
     {
-        img: "",
-        title: "",
-        download: ""
+        img: "./src/img/Robert_Svaboda/AghoraIII.jpg",
+        title: "Aghora III: The Law of Karma",
+        download: "https://archive.org/download/aghorapart3robersvobadae._202003_661_w/Aghora%20Part%203%20%20Rober%20Svobada%20E.%20.pdf"
+    },
+    {
+        img: "./src/img/Robert_Svaboda/saturn-greateness.jpg",
+        title: "The Greateness of Saturn",
+        download: "https://archive.org/download/TheGreatnessOfSaturnRobertE.Svoboda_201709/The%20Greatness%20of%20Saturn%20-%20Robert%20E.%20Svoboda.pdf"
+    },
+    {
+        img: "./src/img/Robert_Svaboda/light-on-life.jpg",
+        title: "Light On Life: An Introduction To The Astrology Of India",
+        download: "https://archive.org/download/LightOnLifeAnIntroductionToTheAstrologyOfIndiaHardDeFouwAndRobertSvoboda/Light%20on%20life%20An%20Introduction%20to%20the%20Astrology%20of%20India%20-%20Hard%20de%20Fouw%20and%20Robert%20Svoboda.pdf"
     }
 ]
