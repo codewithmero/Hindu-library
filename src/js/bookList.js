@@ -193,6 +193,11 @@ let puranaBooks = [
         download: "https://archive.org/download/puran_bhagwat/Bhagvat.pdf"
     },
     {
+        img: "./src/img/puranas/padma-purana.jpg",
+        title: "गीता प्रेस: पद्म पुराण",
+        download: "https://archive.org/download/puran_padam/Padma.pdf"
+    },
+    {
         img: "./src/img/puranas/skandha-purana.jpg",
         title: "गीता प्रेस: स्कन्द पुराण",
         download: "https://archive.org/download/puran_skand/Skand.pdf"
