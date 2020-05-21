@@ -344,7 +344,7 @@ let robertSvabodaBooks = [
     }
 ]
 
-const famousGranthaBooks = [
+const granthaBooks = [
     {
         img: "./src/img/Grantha/ArthashastraHindi.jpg",
         title: "कौटिल्य अर्थशास्त्र",

@@ -13,7 +13,7 @@ let dharmasutraBookList = document.querySelector(".dharmasutras");
 let smritiBookList = document.querySelector(".smritis");
 let sanskritNatyaList = document.querySelector(".sanskrit-natya");
 let robertSvabodaList = document.querySelector(".robert-svaboda");
-let famousGranthaList = document.querySelector(".granthas")
+let granthaList = document.querySelector(".granthas")
 
 
 let count = document.querySelector(".count");
@@ -296,7 +296,7 @@ robertSvabodaBooks.forEach(item => {
 
 
 // Populating grantha books
-famousGranthaBooks.forEach(item => {
+granthaBooks.forEach(item => {
     let div = document.createElement("div");
     div.classList.add("book");
 
@@ -317,5 +317,5 @@ famousGranthaBooks.forEach(item => {
     figure.appendChild(figcaption);
     div.appendChild(figure);
 
-    famousGranthaList.appendChild(div);
+    granthaList.appendChild(div);
 });
