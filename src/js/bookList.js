@@ -204,6 +204,11 @@ let gitaBooks = [
         img: "./src/img/Gita/AshtavakraGitaRamanandaSaraswati.jpg",
         title: "अष्टावक्र गीता: रामानन्द सरस्वती द्वारा अनुवादित",
         download: "https://archive.org/download/HindiBookAshtavakraGitaRamanandaSaraswati/Hindi%20Book-Ashtavakra-Gita-Ramananda-Saraswati.pdf"
+    },
+    {
+        img: "./src/img/Itihasa/yoga-vasishtha.jpg",
+        title: "योगवासिष्ठ: हिंदी अनुवाद",
+        download: "https://archive.org/download/HindiBookSankshiptYogaVasisthaByGitaPress/Hindi%20Book-Sankshipt%20yoga%20vasistha%20%20by%20gita%20press%20%28Complete%29.pdf"
     }
 ]
 
