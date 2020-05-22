@@ -191,6 +191,21 @@ let gitaBooks = [
         download: "https://archive.org/download/HindiBookGyaneshwariJnaneshwariGeeta/Hindi%20Book-Gyaneshwari%20%28Jnaneshwari%29%20Geeta.pdf"
     },
     {
+        img: "./src/img/Gita/BhagavadgitaShankaraEng.jpg",
+        title: "The English Transaltion of the Shankarabhashya of Bhagavadgita",
+        download: "https://archive.org/download/Bhagavad-Gita.with.the.Commentary.of.Sri.Shankaracharya/Bhagavad-Gita.with.the.Commentary.of.Sri.Shankaracharya.pdf"
+    },
+    {
+        img: "./src/img/Gita/bhagavadgitaShankaraHindi.jpeg",
+        title: "श्रीमद्भगवद्गीता: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Bhagavad%20Gita%20Sankara%20Bhashya%20with%20Hindi%20Translation%20-%20Harikrishnadas%20Goyandaka%201953%20%28Gita%20Press%29.pdf"
+    },
+    {
+        img: "./src/img/Gita/bhagavadgitaRamanujaHindi.jpg",
+        title: "श्रीमद्भगवद्गीता: श्रीरामानुज-भाष्य हिन्दी अनुवादसहित",
+        download: "https://archive.org/download/HindiBookSrimadBhagavadGitaWithRamanujaBhasyaHindiGitaPress/Hindi%20Book-Srimad-Bhagavad-Gita-With-Ramanuja-Bhasya-Hindi-Gita-Press.pdf"
+    },
+    {
         img: "./src/img/Gita/ashtavakraGita.jpg",
         title: "अष्टावक्र गीता: राजा जनक और महर्षि अष्टावक्र के बीच एक संवाद(संक्षिप्त)",
         download: "https://archive.org/download/AshtavakraGitaWithHindiTranslation1911KhemrajPublishers/Ashtavakra%20Gita%20with%20Hindi%20Translation%201911%20-%20Khemraj%20Publishers.pdf"
