@@ -396,3 +396,56 @@ const granthaBooks = [
         download: "https://archive.org/download/PanchatantraSanskritHindi-JpMishra1910/PanchatantraSanskritHindi-JpMishra1910.pdf"
     }
 ]
+
+let upanishadBooks = [
+    {
+        img: "./src/img/Upanishads/isa-upanishad.jpg",
+        title: "ईशावास्योपनिषद्: सानुवाद शाङ्करभाष्यसहित(Hindi)",
+        download: "https://archive.org/download/IshavasyaUpanishadWithHindiTranslationGitaPressGorakhpur/Ishavasya%20Upanishad%20with%20Hindi%20Translation%20-%20Gita%20Press%20Gorakhpur.pdf"
+    },
+    {
+        img: "./src/img/Upanishads/aitreyopanishad.jpg",
+        title: "एतरेयोपनिषद्: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Aitareya%20Upanishad%20Sankara%20Bhashya%20with%20Hindi%20Translation%20-%20Gita%20Press%201938.pdf"
+    },
+    {
+        img: "./src/img/Upanishads/brihadaranyak.jpg",
+        title: "बृहदारण्यकोपनिषद्: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Brihadaranyakopanishad%20Sankara%20Bhashya%20with%20Hindi%20Translation%20GIta%20Press%201955.pdf"
+    },
+    {
+        img: "./src/img/Upanishads/chhandogyopanishad.jpg",
+        title: "छांदोग्य उपनिषद्: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Chandogyopanishad%20Sankara%20Bhashya%20with%20Hindi%20Translation%20GIta%20Press%201956.pdf"
+    },
+    {
+        img: "./src/img/Upanishads/kathopanishad.jpg",
+        title: "कठोपनिषद्: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Kathopanishad%20Sankara%20Bhashya%20with%20Hindi%20Translation%20-%20Gita%20Press%201951.pdf"
+    },
+    {
+        img: "./src/img/Upanishads/kenopanishad.jpg",
+        title: "केनोपनिषद्: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Kenopanishad%20Sankara%20Bhashya%20with%20Hindi%20Translation%20-%20Gita%20Press%201935.pdf"
+    },
+    {
+        img: "./src/img/Upanishads/mandukyopanishad.jpeg",
+        title: "माण्डूक्योपनिषद्: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Mandukyopanishad%20%26%20Karika%20with%20Sankara%20Bhashya%20Hindi%20Translation%20-%20Gita%20Press%201936.pdf"
+    },
+    {
+        img: "./src/img/Upanishads/prashnopanishad.jpg",
+        title: "प्रश्नोपनिषद्: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Prasna%20Upanishad%20Sankara%20Bhashya%20with%20Hindi%20Translation%20-%20Gita%20Press%201935.pdf"
+    },
+    {
+        img: "./src/img/Upanishads/shwetashvatar.jpg",
+        title: "श्वेताश्वतर उपनिषद्: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Svetasvataropanishad%20Sankara%20Bhashya%20with%20Hindi%20Translation%20-%20Gita%20Press%201938.pdf"
+    },
+    {
+        img: "./src/img/Upanishads/taittiriyopanishad.jpg",
+        title: "तैत्तिरीयोपनिषद्: सानुवाद शाङ्करभाष्यसहित",
+        download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Taittiriyopanishad%20Sankara%20Bhashya%20with%20Hindi%20Translation%20-%20Gita%20Press%201936.pdf"
+    }
+]
