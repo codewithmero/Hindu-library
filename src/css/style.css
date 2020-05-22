@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-
-:root {
-    --steel-white: rgb(255, 255, 255);
-    --twitter-blue: #00aecc;
-}
+@import "./colors.css";
+@import "./navbar.css";
 
 * {
     box-sizing: border-box;
@@ -22,8 +16,7 @@
 
 body {
     min-height: 100vh;
-    /* background: pink; */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .align-center {
@@ -49,40 +42,10 @@ h1, h2, h3, h4 {
     font-family: 'Oswald', sans-serif;
 }
 
-p, a {
+p {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* Title */
-.title {
-    color: #efefef;
-    font-size: 1rem;
-    background: var(--steel-white);
-    text-transform: uppercase;
-    padding: 20px;
-    text-align: center;
-    color: #555;
-
-}
-
-/* Navbar */
-.burger {
-    position: absolute;
-    display: inline-block;
-    width: 35px;
-    height: auto;
-    right: 2%;
-    top: 47%;
-    transform: translateY(-47%);
-}
-
-.burger .stick {
-    display: block;
-    height: 4px;
-    background: #666;
-    border-radius: 10px;
-    margin-top: 6px;
-}
 
 #book-list {
     padding-top: 4%;
@@ -193,26 +156,8 @@ footer > .centered{
         margin-top: 10px;
     }
 
-    nav ul {
-        justify-content: center;
-    }
-
-    .title {
-        text-align: left;
-    }
-
     .book {
         margin-top: 8%;
-    }
-
-    .burger {
-        width: 27px;
-        right: 4%;
-    }
-
-    .burger > .stick {
-        height: 3px;
-        margin-top: 5px;
     }
 
     .special-mention p, .note p {
@@ -239,15 +184,6 @@ footer > .centered{
         margin-top: 10px;
     }
 
-    .title {
-        text-align: left;
-        font-size: 0.9rem;
-    }
-
-    nav ul {
-        justify-content: center;
-    }
-
     .book {
         margin-top: 8%;
     }
@@ -260,7 +196,4 @@ footer > .centered{
         font-size: 0.7rem;
     }
 
-    /* .burger {
-        display: none;
-    } */
 }

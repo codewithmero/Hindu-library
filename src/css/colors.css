@@ -1,0 +1,10 @@
+/* Fonts here */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+/* Colors here */
+:root {
+    --twitter-blue: #00aecc;
+    
+}
