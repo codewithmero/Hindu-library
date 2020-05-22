@@ -197,7 +197,7 @@ let gitaBooks = [
     },
     {
         img: "./src/img/Gita/bhagavadgitaShankaraHindi.jpeg",
-        title: "श्रीमद्भगवद्गीता: श्रीशाङ्करभाष्य हिन्दी अनुवादसहित",
+        title: "श्रीमद्भगवद्गीता: श्रीशाङ्कर-भाष्य हिन्दी अनुवादसहित",
         download: "https://archive.org/download/Works_of_Sankaracharya_with_Hindi_Translation/Bhagavad%20Gita%20Sankara%20Bhashya%20with%20Hindi%20Translation%20-%20Harikrishnadas%20Goyandaka%201953%20%28Gita%20Press%29.pdf"
     },
     {
