@@ -242,6 +242,48 @@ let swamiKarpatriBooks = [
     download:
       "https://archive.org/download/srividyaratnakaranew/Sri%20Vidya%20Ratnakar%20KarpatriSwami.pdf",
   },
+  {
+    img: "./src/img/Sri_Karpatri/sambhog-se-samadhi.jpg",
+    title: "क्या सम्भोग से समाधी",
+    download:
+      "https://archive.org/download/KyaSambhogSeSamadhi/kya%20sambhog%20se%20samadhi.pdf",
+  },
+  {
+    img: "./src/img/Sri_Karpatri/videsh-yatra.jpg",
+    title: "विदेश यात्रा शास्त्रीय पक्ष",
+    download:
+      "https://archive.org/download/VideshYatraShastriyaPakshKarpatriJi/Videsh%20Yatra%20Shastriya%20Paksh%20Karpatri%20Ji.pdf",
+  },
+  {
+    img: "./src/img/Sri_Karpatri/gau-ek-samagra-chintan.jpeg",
+    title: "गौ: एक समग्र चिंतन",
+    download:
+      "https://archive.org/download/GauEkSamagraChintanKarpatriji/Gau%20-%20Ek%20Samagra%20Chintan%20Karpatriji.pdf",
+  },
+  {
+    img: "./src/img/Sri_Karpatri/karpatra-chintan.jpg",
+    title: "करपात्र चिंतन",
+    download:
+      "https://archive.org/download/karpatra-chintan_201802/karpatra-chintan.pdf",
+  },
+  {
+    img: "./src/img/Sri_Karpatri/bhakti-rasarnava.jpeg",
+    title: "भक्ति रसार्णव",
+    download:
+      "https://archive.org/download/bhaktirasarnava/Bhakti%20Rasarnava%20-%20Karpatriji%201968.pdf",
+  },
+  {
+    img: "./src/img/Sri_Karpatri/vedon-ka-swarupa.jpg",
+    title: "वेदों का स्वरूपा और प्रामाण्य: भाग-१",
+    download:
+      "https://archive.org/download/vedakaswaroopaurpramanyapart/Veda%20Ka%20swaroop%20aur%20pramanya%20part%E0%A5%A7.pdf",
+  },
+  {
+    img: "./src/img/Sri_Karpatri/vedon-ka-swarupa.jpg",
+    title: "वेदों का स्वरूपा और प्रामाण्य: भाग-२",
+    download:
+      "https://archive.org/download/vedkaswaroopaurpramanyabhag2colouredscancomplete/ved%20Ka%20swaroop%20aur%20pramanya%20part%202%20coloured%20scan%20complete.pdf",
+  },
 ];
 
 let learnSanskritBooks = [
