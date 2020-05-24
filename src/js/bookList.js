@@ -158,6 +158,51 @@ let swamiKarpatriBooks = [
         img: "./src/img/marxwad-ramrajya.jpeg",
         title: "मार्क्सवाद और रामराज्य",
         download: "https://archive.org/download/MarxvadAurRamarajyaKarpatriji/Marxvad%20Aur%20Ramarajya%20Karpatriji.pdf"
+    },
+    {
+        img: "./src/img/Sri_Karpatri/swami-karpatri-bio-II.jpeg",
+        title: "श्री करपात्री जी संक्षक्षप्त जीवनी",
+        download: "https://archive.org/download/SriKarpatriJiSankshiptJeevaniVedantiSwamiJi/Sri%20Karpatri%20Ji%20Sankshipt%20Jeevani%20-%20Vedanti%20Swami%20Ji.pdf"
+    },
+    {
+        img: "./src/img/Sri_Karpatri/veda-swarup-vimarsha.jpg",
+        title: "वेद स्वरुप विमर्श",
+        download: "https://archive.org/download/VedaSwaroopVimarshaKarpatriji/Veda%20Swaroop%20Vimarsha%20Karpatriji.pdf"
+    },
+    {
+        img: "./src/img/Sri_Karpatri/vichar-piyush.jpg",
+        title: "विचार पीयूष",
+        download: "https://archive.org/download/vicharapiyushswamikarapatrijimaharaj_20200306_84/Vichara%20Piyush%20Swami%20Karapatriji%20Maharaj.pdf"
+    },
+    {
+        img: "./src/img/Sri_Karpatri/RSS-and-hindudharma.jpg",
+        title: "राष्ट्रीय स्वयं सेवक संघ और हिन्दू धर्म",
+        download: "https://ia800909.us.archive.org/29/items/LaviB/rss%20और%20हिन्दू%20धर्म%20स्वामी%20करपात्री%20जी.pdf"
+    },
+    {
+        img: "./src/img/Sri_Karpatri/chaturvarna-sanskriti-vimarsha.jpeg",
+        title: "चातुर्वर्ण्य संस्कृति विमर्श",
+        download: "https://archive.org/download/ChaturvarnyaSanskritiVimarsh/Chaturvarnya%20Sanskriti%20Vimarsh%20Karpatriji.pdf"
+    },
+    {
+        img: "./src/img/Sri_Karpatri/sankirtan-mimansa.jpg",
+        title: "संकीर्तन मीमांसा और वर्णाश्रम मर्यादा",
+        download: "https://archive.org/download/sankirtanamimansakarpatri/Sankirtan%20Mimansa%20Evam%20Varnashrama%20Dharma%20Karpatriji.pdf"
+    },
+    {
+        img: "./src/img/Sri_Karpatri/no-cover-image.jpg",
+        title: "समन्वय साम्राज्य संरक्षण",
+        download: "https://archive.org/download/samanvaysamrajyasamrakshana/samanvay%20samrajya%20samrakshana%2028-Oct-2018%2011-38-20_Compressed.pdf"
+    },
+    {
+        img: "./src/img/Sri_Karpatri/shrividya-varivasya.jpg",
+        title: "श्रीविद्या वरिवस्या",
+        download: "https://archive.org/download/SrividyaVarivasyaSwamiKarapatrijiMaharaj2008_201806/Srividya%20Varivasya%20-%20Swami%20Karapatriji%20Maharaj%202008.pdf"
+    },
+    {
+        img: "./src/img/Sri_Karpatri/shrividya-ratnakar.jpg",
+        title: "श्रीविद्या रत्नाकर",
+        download: "https://archive.org/download/srividyaratnakaranew/Sri%20Vidya%20Ratnakar%20KarpatriSwami.pdf"
     }
 ]
 
