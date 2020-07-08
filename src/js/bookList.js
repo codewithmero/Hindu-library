@@ -21,8 +21,7 @@ let MahabharataList = [
   {
     img: "./src/img/mahabharat.jpg",
     title: "गीता प्रेस: महाभारत(भाग-4)",
-    download:
-      "https://archive.org/download/Mahabharata_201712/4_Mahabharata.pdf",
+    download: "https://archive.org/download/Mahabharata_201712/4_Mahabharata.pdf",
   },
   {
     img: "./src/img/mahabharat.jpg",
