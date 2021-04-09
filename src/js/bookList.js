@@ -4,36 +4,36 @@ let MahabharataList = [
     img: "./src/img/mahabharat.jpg",
     title: "गीता प्रेस: महाभारत(भाग-1)",
     download:
-      "https://archive.org/download/Mahabharata_201712/1_Mahabharata.pdf",
+      "https://archive.org/download/unabridged-mahabharata-6-volumes-set-in-hindi-by-veda-vyasa-compressed/Mahabharata%20Volume%201.pdf",
   },
   {
     img: "./src/img/mahabharat.jpg",
     title: "गीता प्रेस: महाभारत(भाग-2)",
     download:
-      "https://archive.org/download/Mahabharata_201712/2_Mahabharata.pdf",
+      "https://archive.org/download/unabridged-mahabharata-6-volumes-set-in-hindi-by-veda-vyasa-compressed/Mahabharata%20Volume%202.pdf",
   },
   {
     img: "./src/img/mahabharat.jpg",
     title: "गीता प्रेस: महाभारत(भाग-3)",
     download:
-      "https://archive.org/download/Mahabharata_201712/3_Mahabharata.pdf",
+      "https://archive.org/download/unabridged-mahabharata-6-volumes-set-in-hindi-by-veda-vyasa-compressed/Mahabharata%20Volume%203.pdf",
   },
   {
     img: "./src/img/mahabharat.jpg",
     title: "गीता प्रेस: महाभारत(भाग-4)",
-    download: "https://archive.org/download/Mahabharata_201712/4_Mahabharata.pdf",
+    download: "https://archive.org/download/unabridged-mahabharata-6-volumes-set-in-hindi-by-veda-vyasa-compressed/Mahabharata%20Volume%204.pdf",
   },
   {
     img: "./src/img/mahabharat.jpg",
     title: "गीता प्रेस: महाभारत(भाग-5)",
     download:
-      "https://archive.org/download/Mahabharata_201712/5_Mahabharata.pdf",
+      "https://archive.org/download/unabridged-mahabharata-6-volumes-set-in-hindi-by-veda-vyasa-compressed/Mahabharata%20Volume%205.pdf",
   },
   {
     img: "./src/img/mahabharat.jpg",
     title: "गीता प्रेस: महाभारत(भाग-6)",
     download:
-      "https://archive.org/download/Mahabharata_201712/6_Mahabharata.pdf",
+      "https://archive.org/download/unabridged-mahabharata-6-volumes-set-in-hindi-by-veda-vyasa-compressed/Mahabharata%20Volume%206.pdf",
   },
   {
     img: "./src/img/Mahabharata/gangulyMB.jpg",
